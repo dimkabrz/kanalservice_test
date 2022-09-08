@@ -1,0 +1,47 @@
+.modal_form {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  height: 330px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 5px solid #27569c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  margin: 229px 480px 0px 480px;
+}
+.auth_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #27569c;
+  margin: 40px 15px 45px 15px;
+}
+.login_input {
+  margin-left: 29px;
+}
+.password_input {
+}
+@media (max-width: 744px) {
+  .modal_form {
+    margin: 284px 132px 0 132px;
+  }
+}
+@media (max-width: 320px) {
+  .modal_form {
+    width: 290px;
+    height: 333px;
+    margin: 14px 15px 0 15px;
+  }
+  .auth_title {
+    margin: 10px 43px 5px 35px;
+  }
+  .password_input_mobile {
+    height: 33.48px;
+    margin: 5px 0 0 0;
+  }
+}

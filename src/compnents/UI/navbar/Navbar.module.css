@@ -1,0 +1,51 @@
+.navBar {
+  background-color: #e4b062;
+  height: 118px;
+  display: flex;
+  justify-content: space-between;
+}
+.navBarLogo {
+  margin: 27px 0 28px 37px;
+  cursor: pointer;
+}
+.logoMobile {
+  cursor: pointer;
+  margin: 28px 0 27px 15px;
+}
+.user_exit_bar {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.user_name {
+  height: 56px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #000000;
+}
+.exit_logo {
+  margin: 35px 18px 41.8px 34px;
+  cursor: pointer;
+}
+@media (max-width: 744px) {
+  .user_name {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .navBar {
+    width: 320px;
+  }
+  .user_name {
+    display: none;
+  }
+  .exit_logo {
+    margin: 0 14px 5px 0;
+  }
+}

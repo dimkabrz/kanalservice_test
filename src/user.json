@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "name": "Дмитрий",
+      "login": "dimka_brz",
+      "password": "qweqweqwe"
+    },
+    {
+      "name": "Виктор",
+      "login": "tsoy_zhiv",
+      "password": "zxczxczxc"
+    }
+  ]
+}

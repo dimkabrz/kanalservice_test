@@ -1,0 +1,19 @@
+.subBtn {
+  background: #e4b062;
+  border-radius: 10px;
+  border-color: transparent;
+  width: 213px;
+  height: 43px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 130px;
+  cursor: pointer;
+}
+@media (max-width: 320px) {
+  .subBtn {
+    margin: 21px 0 0 29px;
+  }
+}
